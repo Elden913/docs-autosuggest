@@ -5,8 +5,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://docs.google.com/*",
-                "https://www.youtube.com/*"
+                "https://docs.google.com/*"
             ],
             "js": ["fuzzysort.js", "docs-cmp.js"],
             "css": ["styles.css"]
