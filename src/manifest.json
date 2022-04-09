@@ -1,0 +1,15 @@
+{
+    "name": "docs-cmp",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://docs.google.com/*",
+                "https://www.youtube.com/*"
+            ],
+            "js": ["fuzzysort.js", "docs-cmp.js"],
+            "css": ["styles.css"]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+.kix-cursor {
+    animation: unset !important;
+}
+
+#cmp-dialog {
+    background: rgb(59, 59, 59);
+    color: white;
+    width: max-content;
+    height: min-content;
+    transform: translateX(10px);
+}
